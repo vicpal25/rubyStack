@@ -58,3 +58,146 @@ Started GET "/" for ::1 at 2015-03-19 11:06:34 -0700
 Processing by ApplicationController#hello as HTML
   Rendered text template (0.0ms)
 Completed 200 OK in 37ms (Views: 28.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-03-19 14:03:44 -0700
+Processing by ApplicationController#hello as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 46ms (Views: 37.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-03-19 14:04:41 -0700
+Processing by ApplicationController#goodbye as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-03-19 14:04:43 -0700
+Processing by ApplicationController#goodbye as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-03-19 14:04:51 -0700
+Processing by ApplicationController#goodbye as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+  [1m[36m (279.0ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (397.9ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations`  ON `schema_migrations` (`version`) 
+  [1m[36mActiveRecord::SchemaMigration Load (19.6ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to CreateUsers (20150319211108)
+  [1m[35m (284.3ms)[0m  CREATE TABLE `users` (`id` int(11) auto_increment PRIMARY KEY, `name` varchar(255), `email` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20150319211108')
+  [1m[36m (31.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+  [1m[36m (15.8ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'myapp_development'
+  AND fk.table_name = 'users'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `users`
+
+
+Started GET "/" for ::1 at 2015-03-19 14:22:24 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by ApplicationController#goodbye as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 61ms (Views: 33.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for ::1 at 2015-03-19 14:22:28 -0700
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users`
+  Rendered users/index.html.erb within layouts/application (60.7ms)
+Completed 200 OK in 1606ms (Views: 1555.3ms | ActiveRecord: 47.9ms)
+
+
+Started GET "/assets/scaffolds-22256380d6690e6c6d6c76101f91db95.css?body=1" for ::1 at 2015-03-19 14:22:30 -0700
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-19 14:22:30 -0700
+
+
+Started GET "/assets/application-254bd46ffc8503693c2f4d3380860b8d.css?body=1" for ::1 at 2015-03-19 14:22:30 -0700
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-19 14:22:30 -0700
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-19 14:22:30 -0700
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-19 14:22:30 -0700
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-19 14:22:30 -0700
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for ::1 at 2015-03-19 14:22:30 -0700
+
+
+Started GET "/users/new" for ::1 at 2015-03-19 14:22:50 -0700
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (85.1ms)
+  Rendered users/new.html.erb within layouts/application (109.7ms)
+Completed 200 OK in 199ms (Views: 194.7ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/users" for ::1 at 2015-03-19 14:23:03 -0700
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wkLBEeIT0eH3C2RTFQ8UKVY2I4YLcKIl2uEp6icUla5ifCVheqfgxCWh13JxIH5Ydhm2IcD2qyWQhgNWnBzl7Q==", "user"=>{"name"=>"tony", "email"=>"tony123@yahoo.com"}, "commit"=>"Create User"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `users` (`name`, `email`, `created_at`, `updated_at`) VALUES ('tony', 'tony123@yahoo.com', '2015-03-19 21:23:03.521296', '2015-03-19 21:23:03.521296')
+  [1m[36m (44.5ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/users/1
+Completed 302 Found in 49ms (ActiveRecord: 44.9ms)
+
+
+Started GET "/users/1" for ::1 at 2015-03-19 14:23:03 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  Rendered users/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 125ms (Views: 61.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/1/edit" for ::1 at 2015-03-19 14:23:06 -0700
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  Rendered users/_form.html.erb (1.7ms)
+  Rendered users/edit.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 86ms (Views: 84.4ms | ActiveRecord: 0.3ms)
+
+
+Started PATCH "/users/1" for ::1 at 2015-03-19 14:23:11 -0700
+Processing by UsersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"je00ZoWqq1EvZyfs0F3QtJjBFvF/aAFkytwNxCYaD/It09AWHR6adP3NlM20crrFuO6DVrTuCGSAuyd4nRJ/sQ==", "user"=>{"name"=>"tonytest", "email"=>"tony123@yahoo.com"}, "commit"=>"Update User", "id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (41.8ms)[0m  UPDATE `users` SET `name` = 'tonytest', `updated_at` = '2015-03-19 21:23:11.017894' WHERE `users`.`id` = 1
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/users/1
+Completed 302 Found in 46ms (ActiveRecord: 42.6ms)
+
+
+Started GET "/users/1" for ::1 at 2015-03-19 14:23:11 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  Rendered users/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 39ms (Views: 37.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/1/edit" for ::1 at 2015-03-19 14:23:15 -0700
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  Rendered users/_form.html.erb (1.3ms)
+  Rendered users/edit.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 42ms (Views: 41.3ms | ActiveRecord: 0.3ms)
