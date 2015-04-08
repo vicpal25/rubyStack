@@ -45,9 +45,6 @@ group :development, :test do
   gem 'spring'
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
-  gem "rspec-rails", "~> 2.0"
-  gem "database_cleaner"
-  gem "bower-rails", "~> 0.9.2"
 
 end
 
