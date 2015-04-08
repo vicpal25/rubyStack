@@ -3,16 +3,13 @@
 <head>
   <title><%= full_title(yield(:title)) %> </title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-
    <!--[if IE]>
-
        <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
    <![endif]-->
-
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'angular.min', 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
-<body>
+<body  ng-app="ngRuby">
 
   <nav class="top-bar" data-topbar>
   <ul class="title-area">
@@ -24,32 +21,20 @@
   </ul>
   <section class="top-bar-section">
 
-
-
   <ul class="right">
-  <li><a href="/users">Users</a></li>
-  <li><a href="/microposts">Microposts</a></li>
+      <li><a href="/users">Users</a></li>
+      <li><a href="/microposts">Microposts</a></li>
+      <li><a href="/ng_rubies">Ng-Ruby</a></li>
   </ul>
+
   </section>
   </nav>
-  <!-- <header>
-  <div class="row">
-  <div class="large-12 column">
-  <img src="http://placehold.it/1500x400&text=[stuff and img]">
-  </div>
-  </div>
-  </header> -->
 
   <div class="row">
-  <!-- <div class="medium-3 large-3 text-center columns">
-  <img src="http://placehold.it/150x150&text=[things]">
-  <h4>Title of Content</h4>
-  <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit.</p> -->
 
-  <%= yield %>
+      <%= yield %>
 
   </div>
-
 
 </body>
 </html>
