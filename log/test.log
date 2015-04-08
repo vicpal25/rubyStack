@@ -814,3 +814,220 @@ Processing by UsersController#index as HTML
   Rendered users/index.html.erb within layouts/application (1.5ms)
 Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.1ms)
   [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36mActiveRecord::SchemaMigration Load (33.5ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (27.7ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mFixture Delete (107.1ms)[0m  [1mDELETE FROM `microposts`[0m
+  [1m[35mFixture Insert (89.7ms)[0m  INSERT INTO `microposts` (`content`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 1, '2015-04-08 17:14:52', '2015-04-08 17:14:52', 980190962)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `microposts` (`content`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 1, '2015-04-08 17:14:52', '2015-04-08 17:14:52', 298486374)[0m
+Mysql2::Error: Table 'myapp_test.ng_rubies' doesn't exist: SHOW FULL FIELDS FROM `ng_rubies`
+  [1m[35m (0.7ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.2ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `microposts`[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `microposts` (`content`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 1, '2015-04-08 17:14:52', '2015-04-08 17:14:52', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `microposts` (`content`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 1, '2015-04-08 17:14:52', '2015-04-08 17:14:52', 298486374)[0m
+Mysql2::Error: Table 'myapp_test.ng_rubies' doesn't exist: SHOW FULL FIELDS FROM `ng_rubies`
+  [1m[35m (0.4ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.1ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `microposts`[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `microposts` (`content`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 1, '2015-04-08 17:14:52', '2015-04-08 17:14:52', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `microposts` (`content`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 1, '2015-04-08 17:14:52', '2015-04-08 17:14:52', 298486374)[0m
+Mysql2::Error: Table 'myapp_test.ng_rubies' doesn't exist: SHOW FULL FIELDS FROM `ng_rubies`
+  [1m[35m (0.4ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.1ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM `microposts`[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `microposts` (`content`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 1, '2015-04-08 17:14:52', '2015-04-08 17:14:52', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `microposts` (`content`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 1, '2015-04-08 17:14:52', '2015-04-08 17:14:52', 298486374)[0m
+Mysql2::Error: Table 'myapp_test.ng_rubies' doesn't exist: SHOW FULL FIELDS FROM `ng_rubies`
+  [1m[35m (11.7ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.1ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `microposts`[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `microposts` (`content`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 1, '2015-04-08 17:14:52', '2015-04-08 17:14:52', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `microposts` (`content`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 1, '2015-04-08 17:14:52', '2015-04-08 17:14:52', 298486374)[0m
+Mysql2::Error: Table 'myapp_test.ng_rubies' doesn't exist: SHOW FULL FIELDS FROM `ng_rubies`
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.1ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `microposts`[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `microposts` (`content`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 1, '2015-04-08 17:14:52', '2015-04-08 17:14:52', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `microposts` (`content`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 1, '2015-04-08 17:14:52', '2015-04-08 17:14:52', 298486374)[0m
+Mysql2::Error: Table 'myapp_test.ng_rubies' doesn't exist: SHOW FULL FIELDS FROM `ng_rubies`
+  [1m[35m (0.9ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.1ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `microposts`[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `microposts` (`content`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 1, '2015-04-08 17:14:52', '2015-04-08 17:14:52', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `microposts` (`content`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 1, '2015-04-08 17:14:52', '2015-04-08 17:14:52', 298486374)[0m
+Mysql2::Error: Table 'myapp_test.ng_rubies' doesn't exist: SHOW FULL FIELDS FROM `ng_rubies`
+  [1m[35m (0.5ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.1ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `microposts`[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `microposts` (`content`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 1, '2015-04-08 17:14:52', '2015-04-08 17:14:52', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `microposts` (`content`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 1, '2015-04-08 17:14:52', '2015-04-08 17:14:52', 298486374)[0m
+Mysql2::Error: Table 'myapp_test.ng_rubies' doesn't exist: SHOW FULL FIELDS FROM `ng_rubies`
+  [1m[35m (0.4ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.1ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `microposts`[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `microposts` (`content`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 1, '2015-04-08 17:14:52', '2015-04-08 17:14:52', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `microposts` (`content`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 1, '2015-04-08 17:14:52', '2015-04-08 17:14:52', 298486374)[0m
+Mysql2::Error: Table 'myapp_test.ng_rubies' doesn't exist: SHOW FULL FIELDS FROM `ng_rubies`
+  [1m[35m (0.6ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.1ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `microposts`[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `microposts` (`content`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 1, '2015-04-08 17:14:52', '2015-04-08 17:14:52', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `microposts` (`content`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 1, '2015-04-08 17:14:52', '2015-04-08 17:14:52', 298486374)[0m
+Mysql2::Error: Table 'myapp_test.ng_rubies' doesn't exist: SHOW FULL FIELDS FROM `ng_rubies`
+  [1m[35m (0.4ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.1ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM `microposts`[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `microposts` (`content`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 1, '2015-04-08 17:14:53', '2015-04-08 17:14:53', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `microposts` (`content`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 1, '2015-04-08 17:14:53', '2015-04-08 17:14:53', 298486374)[0m
+Mysql2::Error: Table 'myapp_test.ng_rubies' doesn't exist: SHOW FULL FIELDS FROM `ng_rubies`
+  [1m[35m (0.4ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.1ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `microposts`[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `microposts` (`content`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 1, '2015-04-08 17:14:53', '2015-04-08 17:14:53', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `microposts` (`content`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 1, '2015-04-08 17:14:53', '2015-04-08 17:14:53', 298486374)[0m
+Mysql2::Error: Table 'myapp_test.ng_rubies' doesn't exist: SHOW FULL FIELDS FROM `ng_rubies`
+  [1m[35m (0.6ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.1ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `microposts`[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `microposts` (`content`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 1, '2015-04-08 17:14:53', '2015-04-08 17:14:53', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `microposts` (`content`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 1, '2015-04-08 17:14:53', '2015-04-08 17:14:53', 298486374)[0m
+Mysql2::Error: Table 'myapp_test.ng_rubies' doesn't exist: SHOW FULL FIELDS FROM `ng_rubies`
+  [1m[35m (0.5ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.1ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM `microposts`[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `microposts` (`content`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 1, '2015-04-08 17:14:53', '2015-04-08 17:14:53', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `microposts` (`content`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 1, '2015-04-08 17:14:53', '2015-04-08 17:14:53', 298486374)[0m
+Mysql2::Error: Table 'myapp_test.ng_rubies' doesn't exist: SHOW FULL FIELDS FROM `ng_rubies`
+  [1m[35m (0.4ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.1ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `microposts`[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `microposts` (`content`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 1, '2015-04-08 17:14:53', '2015-04-08 17:14:53', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `microposts` (`content`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 1, '2015-04-08 17:14:53', '2015-04-08 17:14:53', 298486374)[0m
+Mysql2::Error: Table 'myapp_test.ng_rubies' doesn't exist: SHOW FULL FIELDS FROM `ng_rubies`
+  [1m[35m (0.4ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.1ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `microposts`[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `microposts` (`content`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 1, '2015-04-08 17:14:53', '2015-04-08 17:14:53', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `microposts` (`content`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 1, '2015-04-08 17:14:53', '2015-04-08 17:14:53', 298486374)[0m
+Mysql2::Error: Table 'myapp_test.ng_rubies' doesn't exist: SHOW FULL FIELDS FROM `ng_rubies`
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.1ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `microposts`[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `microposts` (`content`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 1, '2015-04-08 17:14:53', '2015-04-08 17:14:53', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `microposts` (`content`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 1, '2015-04-08 17:14:53', '2015-04-08 17:14:53', 298486374)[0m
+Mysql2::Error: Table 'myapp_test.ng_rubies' doesn't exist: SHOW FULL FIELDS FROM `ng_rubies`
+  [1m[35m (0.4ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.1ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `microposts`[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `microposts` (`content`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 1, '2015-04-08 17:14:53', '2015-04-08 17:14:53', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `microposts` (`content`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 1, '2015-04-08 17:14:53', '2015-04-08 17:14:53', 298486374)[0m
+Mysql2::Error: Table 'myapp_test.ng_rubies' doesn't exist: SHOW FULL FIELDS FROM `ng_rubies`
+  [1m[35m (0.6ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.1ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM `microposts`[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `microposts` (`content`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 1, '2015-04-08 17:14:53', '2015-04-08 17:14:53', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `microposts` (`content`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 1, '2015-04-08 17:14:53', '2015-04-08 17:14:53', 298486374)[0m
+Mysql2::Error: Table 'myapp_test.ng_rubies' doesn't exist: SHOW FULL FIELDS FROM `ng_rubies`
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.1ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `microposts`[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `microposts` (`content`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 1, '2015-04-08 17:14:53', '2015-04-08 17:14:53', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `microposts` (`content`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 1, '2015-04-08 17:14:53', '2015-04-08 17:14:53', 298486374)[0m
+Mysql2::Error: Table 'myapp_test.ng_rubies' doesn't exist: SHOW FULL FIELDS FROM `ng_rubies`
+  [1m[35m (0.4ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.1ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `microposts`[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `microposts` (`content`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 1, '2015-04-08 17:14:53', '2015-04-08 17:14:53', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `microposts` (`content`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 1, '2015-04-08 17:14:53', '2015-04-08 17:14:53', 298486374)[0m
+Mysql2::Error: Table 'myapp_test.ng_rubies' doesn't exist: SHOW FULL FIELDS FROM `ng_rubies`
+  [1m[35m (0.7ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.1ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `microposts`[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `microposts` (`content`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 1, '2015-04-08 17:14:53', '2015-04-08 17:14:53', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `microposts` (`content`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 1, '2015-04-08 17:14:53', '2015-04-08 17:14:53', 298486374)[0m
+Mysql2::Error: Table 'myapp_test.ng_rubies' doesn't exist: SHOW FULL FIELDS FROM `ng_rubies`
+  [1m[35m (0.7ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.1ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `microposts`[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `microposts` (`content`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 1, '2015-04-08 17:14:53', '2015-04-08 17:14:53', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `microposts` (`content`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 1, '2015-04-08 17:14:53', '2015-04-08 17:14:53', 298486374)[0m
+Mysql2::Error: Table 'myapp_test.ng_rubies' doesn't exist: SHOW FULL FIELDS FROM `ng_rubies`
+  [1m[35m (0.5ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.2ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `microposts`[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO `microposts` (`content`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 1, '2015-04-08 17:14:53', '2015-04-08 17:14:53', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `microposts` (`content`, `user_id`, `created_at`, `updated_at`, `id`) VALUES ('MyText', 1, '2015-04-08 17:14:53', '2015-04-08 17:14:53', 298486374)[0m
+Mysql2::Error: Table 'myapp_test.ng_rubies' doesn't exist: SHOW FULL FIELDS FROM `ng_rubies`
+  [1m[35m (0.4ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m

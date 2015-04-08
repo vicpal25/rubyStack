@@ -20392,3 +20392,699 @@ ActionController::RoutingError (No route matches [GET] "/stylesheets/normalize.c
   Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
   Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
   Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (124.2ms)
+
+
+Started GET "/microposts" for ::1 at 2015-04-08 09:57:24 -0700
+Processing by MicropostsController#index as HTML
+  [1m[36mMicropost Load (0.3ms)[0m  [1mSELECT `microposts`.* FROM `microposts`[0m
+  Rendered microposts/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 353ms (Views: 352.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application-1634c6bbba8fba12cf1540a06d950f33.css?body=1" for ::1 at 2015-04-08 09:57:24 -0700
+
+
+Started GET "/assets/ie-c573d36ecd2a26b4330f9f55e2da1f0b.css?body=1" for ::1 at 2015-04-08 09:57:24 -0700
+
+
+Started GET "/assets/microposts-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-08 09:57:24 -0700
+
+
+Started GET "/assets/foundation-9263c6ce6b588da16422973a49412d5d.css?body=1" for ::1 at 2015-04-08 09:57:24 -0700
+
+
+Started GET "/assets/ng_rubies-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-08 09:57:24 -0700
+
+
+Started GET "/assets/normalize-e58661a79f0228536d557b6e4f4ff06c.css?body=1" for ::1 at 2015-04-08 09:57:24 -0700
+
+
+Started GET "/assets/print-28a01ace10ab602165d300419374e979.css?body=1" for ::1 at 2015-04-08 09:57:25 -0700
+
+
+Started GET "/assets/scaffolds-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-08 09:57:25 -0700
+
+
+Started GET "/assets/screen-204e6dd1ddd46b4c7e9fb2698a531580.css?body=1" for ::1 at 2015-04-08 09:57:25 -0700
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-08 09:57:25 -0700
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-08 09:57:25 -0700
+
+
+Started GET "/assets/angular.min-aad5ff7d1cea8f86733c25c5d62bf4e2.js?body=1" for ::1 at 2015-04-08 09:57:25 -0700
+
+
+Started GET "/assets/application-3c5c850e21f15345a1096f480b5d78f1.js?body=1" for ::1 at 2015-04-08 09:57:25 -0700
+
+
+Started GET "/microposts" for ::1 at 2015-04-08 09:57:27 -0700
+Processing by MicropostsController#index as HTML
+  [1m[35mMicropost Load (0.3ms)[0m  SELECT `microposts`.* FROM `microposts`
+  Rendered microposts/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 69ms (Views: 68.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/foundation-9263c6ce6b588da16422973a49412d5d.css?body=1" for ::1 at 2015-04-08 09:57:27 -0700
+
+
+Started GET "/assets/ie-c573d36ecd2a26b4330f9f55e2da1f0b.css?body=1" for ::1 at 2015-04-08 09:57:27 -0700
+
+
+Started GET "/assets/microposts-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-08 09:57:27 -0700
+
+
+Started GET "/assets/ng_rubies-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-08 09:57:27 -0700
+
+
+Started GET "/assets/normalize-e58661a79f0228536d557b6e4f4ff06c.css?body=1" for ::1 at 2015-04-08 09:57:27 -0700
+
+
+Started GET "/assets/print-28a01ace10ab602165d300419374e979.css?body=1" for ::1 at 2015-04-08 09:57:27 -0700
+
+
+Started GET "/assets/scaffolds-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-08 09:57:27 -0700
+
+
+Started GET "/assets/screen-204e6dd1ddd46b4c7e9fb2698a531580.css?body=1" for ::1 at 2015-04-08 09:57:27 -0700
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-08 09:57:27 -0700
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-08 09:57:27 -0700
+
+
+Started GET "/assets/angular.min-aad5ff7d1cea8f86733c25c5d62bf4e2.js?body=1" for ::1 at 2015-04-08 09:57:27 -0700
+
+
+Started GET "/assets/application-3c5c850e21f15345a1096f480b5d78f1.js?body=1" for ::1 at 2015-04-08 09:57:27 -0700
+
+
+Started GET "/users" for ::1 at 2015-04-08 10:05:29 -0700
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users`[0m
+  Rendered users/index.html.erb within layouts/application (23.0ms)
+Completed 200 OK in 120ms (Views: 100.9ms | ActiveRecord: 17.1ms)
+
+
+Started GET "/assets/microposts-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-08 10:05:29 -0700
+
+
+Started GET "/assets/foundation-9263c6ce6b588da16422973a49412d5d.css?body=1" for ::1 at 2015-04-08 10:05:29 -0700
+
+
+Started GET "/assets/print-28a01ace10ab602165d300419374e979.css?body=1" for ::1 at 2015-04-08 10:05:29 -0700
+
+
+Started GET "/assets/ie-c573d36ecd2a26b4330f9f55e2da1f0b.css?body=1" for ::1 at 2015-04-08 10:05:29 -0700
+
+
+Started GET "/assets/ng_rubies-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-08 10:05:29 -0700
+
+
+Started GET "/assets/normalize-e58661a79f0228536d557b6e4f4ff06c.css?body=1" for ::1 at 2015-04-08 10:05:29 -0700
+
+
+Started GET "/assets/scaffolds-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-08 10:05:29 -0700
+
+
+Started GET "/assets/screen-204e6dd1ddd46b4c7e9fb2698a531580.css?body=1" for ::1 at 2015-04-08 10:05:29 -0700
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-08 10:05:29 -0700
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-08 10:05:29 -0700
+
+
+Started GET "/assets/angular.min-aad5ff7d1cea8f86733c25c5d62bf4e2.js?body=1" for ::1 at 2015-04-08 10:05:29 -0700
+
+
+Started GET "/assets/application-3c5c850e21f15345a1096f480b5d78f1.js?body=1" for ::1 at 2015-04-08 10:05:29 -0700
+
+
+Started GET "/user" for ::1 at 2015-04-08 10:05:33 -0700
+
+ActionController::RoutingError (No route matches [GET] "/user"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.9ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (94.0ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (59.5ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (153.6ms)
+
+
+Started GET "/users" for ::1 at 2015-04-08 10:06:02 -0700
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users`
+  Rendered users/index.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 80ms (Views: 72.5ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/assets/foundation-9263c6ce6b588da16422973a49412d5d.css?body=1" for ::1 at 2015-04-08 10:06:02 -0700
+
+
+Started GET "/assets/ie-c573d36ecd2a26b4330f9f55e2da1f0b.css?body=1" for ::1 at 2015-04-08 10:06:02 -0700
+
+
+Started GET "/assets/ng_rubies-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-08 10:06:02 -0700
+
+
+Started GET "/assets/microposts-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-08 10:06:02 -0700
+
+
+Started GET "/assets/normalize-e58661a79f0228536d557b6e4f4ff06c.css?body=1" for ::1 at 2015-04-08 10:06:02 -0700
+
+
+Started GET "/assets/print-28a01ace10ab602165d300419374e979.css?body=1" for ::1 at 2015-04-08 10:06:02 -0700
+
+
+Started GET "/assets/scaffolds-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-08 10:06:02 -0700
+
+
+Started GET "/assets/screen-204e6dd1ddd46b4c7e9fb2698a531580.css?body=1" for ::1 at 2015-04-08 10:06:02 -0700
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-08 10:06:02 -0700
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-08 10:06:02 -0700
+
+
+Started GET "/assets/application-1634c6bbba8fba12cf1540a06d950f33.css?body=1" for ::1 at 2015-04-08 10:06:02 -0700
+
+
+Started GET "/assets/angular.min-aad5ff7d1cea8f86733c25c5d62bf4e2.js?body=1" for ::1 at 2015-04-08 10:06:02 -0700
+
+
+Started GET "/assets/application-3c5c850e21f15345a1096f480b5d78f1.js?body=1" for ::1 at 2015-04-08 10:06:02 -0700
+  [1m[36m (42.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (15.3ms)[0m  ROLLBACK
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users`[0m
+  [1m[35mUser Load (59.7ms)[0m  SELECT  `users`.* FROM `users`  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (47.6ms)[0m  INSERT INTO `users` (`name`, `email`, `created_at`, `updated_at`) VALUES ('Example User', 'user@examplem.com', '2015-04-08 17:16:48.090865', '2015-04-08 17:16:48.090865')
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (48.0ms)[0m  SELECT COUNT(*) FROM `users`
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users`  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users`  ORDER BY `users`.`id` ASC LIMIT 1 OFFSET 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `users` (`name`, `email`, `created_at`, `updated_at`) VALUES ('Example User', 'user@examplem.com', '2015-04-08 17:20:17.670201', '2015-04-08 17:20:17.670201')
+  [1m[36m (26.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `users` (`name`, `email`, `created_at`, `updated_at`) VALUES ('Example User', 'user@examplem.com', '2015-04-08 17:20:21.185439', '2015-04-08 17:20:21.185439')[0m
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM `users`[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to AddIndexToUsersEmail (20150408171845)
+  [1m[35m (282.7ms)[0m  CREATE UNIQUE INDEX `index_users_on_email`  ON `users` (`email`) 
+Mysql2::Error: Duplicate entry 'user@examplem.com' for key 'index_users_on_email': CREATE UNIQUE INDEX `index_users_on_email`  ON `users` (`email`) 
+
+
+Started GET "/users" for ::1 at 2015-04-08 10:21:16 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.2.0) lib/active_record/migration.rb:393:in `check_pending!'
+  activerecord (4.2.0) lib/active_record/migration.rb:374:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.4ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (65.8ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (63.3ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (136.5ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users`  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (290.6ms)[0m  [1mDELETE FROM `users` WHERE `users`.`id` = 1[0m
+  [1m[35m (194.6ms)[0m  COMMIT
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  `users`.* FROM `users`  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mDELETE FROM `users` WHERE `users`.`id` = 2[0m
+  [1m[35m (44.6ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM `users`[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to AddIndexToUsersEmail (20150408171845)
+  [1m[35m (128.4ms)[0m  CREATE UNIQUE INDEX `index_users_on_email`  ON `users` (`email`) 
+Mysql2::Error: Duplicate entry 'user@examplem.com' for key 'index_users_on_email': CREATE UNIQUE INDEX `index_users_on_email`  ON `users` (`email`) 
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users`  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM `users` WHERE `users`.`id` = 3[0m
+  [1m[35m (32.9ms)[0m  COMMIT
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to AddIndexToUsersEmail (20150408171845)
+  [1m[35m (240.3ms)[0m  CREATE UNIQUE INDEX `index_users_on_email`  ON `users` (`email`) 
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20150408171845')
+  [1m[36m (15.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+  [1m[36m (50.9ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'myapp_development'
+  AND fk.table_name = 'microposts'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `microposts`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'myapp_development'
+  AND fk.table_name = 'ng_rubies'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `ng_rubies`
+  [1m[36m (0.2ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'myapp_development'
+  AND fk.table_name = 'users'
+[0m
+  [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `users`
+
+
+Started GET "/users" for ::1 at 2015-04-08 10:24:30 -0700
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users`[0m
+  Rendered users/index.html.erb within layouts/application (22.3ms)
+Completed 200 OK in 119ms (Views: 97.9ms | ActiveRecord: 17.6ms)
+
+
+Started GET "/assets/foundation-9263c6ce6b588da16422973a49412d5d.css?body=1" for ::1 at 2015-04-08 10:24:30 -0700
+
+
+Started GET "/assets/ie-c573d36ecd2a26b4330f9f55e2da1f0b.css?body=1" for ::1 at 2015-04-08 10:24:30 -0700
+
+
+Started GET "/assets/normalize-e58661a79f0228536d557b6e4f4ff06c.css?body=1" for ::1 at 2015-04-08 10:24:30 -0700
+
+
+Started GET "/assets/print-28a01ace10ab602165d300419374e979.css?body=1" for ::1 at 2015-04-08 10:24:30 -0700
+
+
+Started GET "/assets/microposts-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-08 10:24:30 -0700
+
+
+Started GET "/assets/ng_rubies-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-08 10:24:30 -0700
+
+
+Started GET "/assets/scaffolds-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-08 10:24:30 -0700
+
+
+Started GET "/assets/screen-204e6dd1ddd46b4c7e9fb2698a531580.css?body=1" for ::1 at 2015-04-08 10:24:30 -0700
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-08 10:24:30 -0700
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-08 10:24:30 -0700
+
+
+Started GET "/assets/application-1634c6bbba8fba12cf1540a06d950f33.css?body=1" for ::1 at 2015-04-08 10:24:30 -0700
+
+
+Started GET "/assets/angular.min-aad5ff7d1cea8f86733c25c5d62bf4e2.js?body=1" for ::1 at 2015-04-08 10:24:30 -0700
+
+
+Started GET "/assets/application-3c5c850e21f15345a1096f480b5d78f1.js?body=1" for ::1 at 2015-04-08 10:24:30 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to AddPasswordDigestToUsers (20150408173222)
+  [1m[35m (618.0ms)[0m  ALTER TABLE `users` ADD `password_digest` varchar(255)
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20150408173222')
+  [1m[36m (9.8ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+  [1m[36m (0.2ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'myapp_development'
+  AND fk.table_name = 'microposts'
+[0m
+  [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `microposts`
+  [1m[36m (0.2ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'myapp_development'
+  AND fk.table_name = 'ng_rubies'
+[0m
+  [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `ng_rubies`
+  [1m[36m (0.2ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'myapp_development'
+  AND fk.table_name = 'users'
+[0m
+  [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `users`
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `users` (`name`, `email`, `password_digest`, `created_at`, `updated_at`) VALUES ('Victor Palma', 'mhartl@example.com', '$2a$10$Y2kUiueFAWVKam9Jx7xriehbHeiEjJU8DAu/LJw/X3uI6TE4VSUyO', '2015-04-08 17:38:27.328476', '2015-04-08 17:38:27.328476')
+  [1m[36m (106.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO `users` (`name`, `email`, `password_digest`, `created_at`, `updated_at`) VALUES ('Victor Palma', 'mhartl@example.com', '$2a$10$cS2lQrbpTwJgHEA2CRQFaOjbV4wFZP5THksoMv2KdpfON0HgNiBAm', '2015-04-08 17:38:37.450895', '2015-04-08 17:38:37.450895')[0m
+Mysql2::Error: Duplicate entry 'mhartl@example.com' for key 'index_users_on_email': INSERT INTO `users` (`name`, `email`, `password_digest`, `created_at`, `updated_at`) VALUES ('Victor Palma', 'mhartl@example.com', '$2a$10$cS2lQrbpTwJgHEA2CRQFaOjbV4wFZP5THksoMv2KdpfON0HgNiBAm', '2015-04-08 17:38:37.450895', '2015-04-08 17:38:37.450895')
+  [1m[35m (1.0ms)[0m  ROLLBACK
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+  [1m[36m (0.2ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'myapp_development'
+  AND fk.table_name = 'microposts'
+[0m
+  [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `microposts`
+  [1m[36m (0.1ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'myapp_development'
+  AND fk.table_name = 'ng_rubies'
+[0m
+  [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `ng_rubies`
+  [1m[36m (0.1ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'myapp_development'
+  AND fk.table_name = 'users'
+[0m
+  [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `users`
+
+
+Started GET "/" for ::1 at 2015-04-08 10:44:37 -0700
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+Processing by UsersController#index as HTML
+Completed 500 Internal Server Error in 5ms
+
+LoadError (cannot load such file -- bcrypt):
+  app/models/user.rb:6:in `<class:User>'
+  app/models/user.rb:1:in `<top (required)>'
+  app/controllers/users_controller.rb:7:in `index'
+
+
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.3ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (70.2ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (59.6ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (134.8ms)
+
+
+Started GET "/" for ::1 at 2015-04-08 10:45:15 -0700
+Processing by UsersController#index as HTML
+Completed 500 Internal Server Error in 4ms
+
+LoadError (cannot load such file -- bcrypt):
+  app/models/user.rb:6:in `<class:User>'
+  app/models/user.rb:1:in `<top (required)>'
+  app/controllers/users_controller.rb:7:in `index'
+
+
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.3ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (68.8ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (56.1ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (126.1ms)
+
+
+Started GET "/" for ::1 at 2015-04-08 10:52:07 -0700
+Processing by UsersController#index as HTML
+Completed 500 Internal Server Error in 4ms
+
+LoadError (cannot load such file -- bcrypt):
+  app/models/user.rb:6:in `<class:User>'
+  app/models/user.rb:1:in `<top (required)>'
+  app/controllers/users_controller.rb:7:in `index'
+
+
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.4ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (67.8ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (58.5ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (164.7ms)
+
+
+Started GET "/" for ::1 at 2015-04-08 10:53:01 -0700
+Processing by UsersController#index as HTML
+Completed 500 Internal Server Error in 4ms
+
+LoadError (cannot load such file -- bcrypt):
+  app/models/user.rb:6:in `<class:User>'
+  app/models/user.rb:1:in `<top (required)>'
+  app/controllers/users_controller.rb:7:in `index'
+
+
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.2ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (66.1ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (55.5ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (124.1ms)
+
+
+Started GET "/" for ::1 at 2015-04-08 10:54:13 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users`
+  Rendered users/index.html.erb within layouts/application (39.7ms)
+Completed 500 Internal Server Error in 467ms
+
+ActionView::Template::Error (Asset filtered out and will not be served: add `Rails.application.config.assets.precompile += %w( angular.min.js )` to `config/initializers/assets.rb` and restart your server):
+     6:    <!--[if IE]>
+     7:        <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+     8:    <![endif]-->
+     9:   <%= javascript_include_tag 'angular.min', 'application', 'data-turbolinks-track' => true %>
+    10:   <%= csrf_meta_tags %>
+    11: </head>
+    12: <body  ng-app="ngRuby">
+  app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb___659813011127627814_70222733902860'
+
+
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.2ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.9ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (73.2ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (60.1ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/vpalma/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (134.2ms)
+
+
+Started GET "/" for ::1 at 2015-04-08 10:54:54 -0700
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users`[0m
+  Rendered users/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 56ms (Views: 55.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/foundation-9263c6ce6b588da16422973a49412d5d.css?body=1" for ::1 at 2015-04-08 10:54:54 -0700
+
+
+Started GET "/assets/microposts-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-08 10:54:54 -0700
+
+
+Started GET "/assets/ie-c573d36ecd2a26b4330f9f55e2da1f0b.css?body=1" for ::1 at 2015-04-08 10:54:54 -0700
+
+
+Started GET "/assets/ng_rubies-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-08 10:54:54 -0700
+
+
+Started GET "/assets/normalize-e58661a79f0228536d557b6e4f4ff06c.css?body=1" for ::1 at 2015-04-08 10:54:54 -0700
+
+
+Started GET "/assets/print-28a01ace10ab602165d300419374e979.css?body=1" for ::1 at 2015-04-08 10:54:54 -0700
+
+
+Started GET "/assets/scaffolds-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-08 10:54:54 -0700
+
+
+Started GET "/assets/screen-204e6dd1ddd46b4c7e9fb2698a531580.css?body=1" for ::1 at 2015-04-08 10:54:54 -0700
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-08 10:54:54 -0700
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-08 10:54:54 -0700
+
+
+Started GET "/assets/application-1634c6bbba8fba12cf1540a06d950f33.css?body=1" for ::1 at 2015-04-08 10:54:54 -0700
+
+
+Started GET "/users/new" for ::1 at 2015-04-08 10:54:57 -0700
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 91ms (Views: 90.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation-9263c6ce6b588da16422973a49412d5d.css?body=1" for ::1 at 2015-04-08 10:54:57 -0700
+
+
+Started GET "/assets/ie-c573d36ecd2a26b4330f9f55e2da1f0b.css?body=1" for ::1 at 2015-04-08 10:54:57 -0700
+
+
+Started GET "/assets/normalize-e58661a79f0228536d557b6e4f4ff06c.css?body=1" for ::1 at 2015-04-08 10:54:57 -0700
+
+
+Started GET "/assets/ng_rubies-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-08 10:54:57 -0700
+
+
+Started GET "/assets/microposts-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-08 10:54:57 -0700
+
+
+Started GET "/assets/print-28a01ace10ab602165d300419374e979.css?body=1" for ::1 at 2015-04-08 10:54:57 -0700
+
+
+Started GET "/assets/scaffolds-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-08 10:54:57 -0700
+
+
+Started GET "/assets/screen-204e6dd1ddd46b4c7e9fb2698a531580.css?body=1" for ::1 at 2015-04-08 10:54:57 -0700
+
+
+Started GET "/assets/static_pages-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-08 10:54:57 -0700
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-08 10:54:57 -0700
+
+
+Started GET "/assets/application-1634c6bbba8fba12cf1540a06d950f33.css?body=1" for ::1 at 2015-04-08 10:54:57 -0700
